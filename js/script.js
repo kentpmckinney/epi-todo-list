@@ -20,7 +20,7 @@ $(document).ready(function(){
 
   $("#form").submit(function(e) {
     let description = $("#description").val();
-    $("#result").append(`<input type="checkbox">${description}</div>`);
+    $("#result").append(`<div><label><input type="checkbox"/>${description} ⬆ ⬇ ⭐ ✘</label></div>`);
     e.preventDefault();
   });
 
